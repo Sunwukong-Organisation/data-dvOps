@@ -1,0 +1,95 @@
+[
+    {
+        "Id": "sha256:4303bd0359c274d7f5b60ec756b2afe3628ca426246e5eb7fa7804ffa44a0b64",
+        "RepoTags": [
+            "pedro-add2:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2023-12-07T21:37:20.249471317-03:00",
+        "Container": "",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "VAR_ENV_PEDRO=Batatinha_quando_nasce"
+            ],
+            "Cmd": [
+                "/bin/bash"
+            ],
+            "Image": "",
+            "Volumes": {
+                "/tools": {}
+            },
+            "WorkingDir": "/app",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "maintainer": "PedroVaca",
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "22.04"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 194475429,
+        "VirtualSize": 194475429,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/nl4rgdqwln7djuja81ozmeczu/diff:/var/lib/docker/overlay2/xgtimsbd01haat2nzznnsqh03/diff:/var/lib/docker/overlay2/we6lh7ggzcue8tm3iyvhzviak/diff:/var/lib/docker/overlay2/23clgdk02ojn4v2ml34ivz1f1/diff:/var/lib/docker/overlay2/kftaf4db5b42e1vfm25m15o4h/diff:/var/lib/docker/overlay2/sqh9zzt9immnkzdk46lg3bynz/diff:/var/lib/docker/overlay2/flgia7n5ae9irem6vbbyacbbe/diff:/var/lib/docker/overlay2/kki4w1cgrzyc4pfc6he19icdf/diff:/var/lib/docker/overlay2/6afcc9aa32c4aacf39d1636a32176297e381717d437c66dab2d300860163af1f/diff",
+                "MergedDir": "/var/lib/docker/overlay2/w7cok8ej5wnhkg44ko0kdo9gx/merged",
+                "UpperDir": "/var/lib/docker/overlay2/w7cok8ej5wnhkg44ko0kdo9gx/diff",
+                "WorkDir": "/var/lib/docker/overlay2/w7cok8ej5wnhkg44ko0kdo9gx/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:256d88da41857db513b95b50ba9a9b28491b58c954e25477d5dad8abb465430b",
+                "sha256:b15d9848a6e37845410a0e0de24626da7ae7142beeee7e2970a6f52419b22d76",
+                "sha256:c3539ab16d2785c1b6d181136f92252284f944157428a109fc985d27fbbe20c9",
+                "sha256:d87140b0fa9565250ef8962abdcbaabcc5d41c2c8b416504d841be8b1d48cc12",
+                "sha256:a8c012b6587f362543aeeb16697837935fc9a3fc02ef6851bf3bed8e99f46d15",
+                "sha256:a99614d305e07513fcb51393e2fff4d66b56fbb97c6ab74b352b9d52355f8681",
+                "sha256:a9e7cade2b203b9e09cf18dbc67abfd50871ac9a1bcc09867df96a58734f7b16",
+                "sha256:0d875b2e969c1b48f5b0f130e201184be37f07d1366879976a843a42f261b7e0",
+                "sha256:19d26f7d0a68c44824171d8302b278e85aa641f5a8fd43fb417efc5eeb998bfa",
+                "sha256:10bfa1f409e19ecfb31b7ea95c8d84a367fc487cda612769f7260a2c4a17decb"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2023-12-07T21:40:05.341068016-03:00"
+        }
+    }
+]
